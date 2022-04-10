@@ -100,7 +100,7 @@ export function Checkbox(nameID, label, Attr){
     let inputHtml;
 
     //simple boolean checkbox for one question
-    if(Object.keys(n.options).length == 0){
+    if(Object.keys(Attr.options).length == 0){
 
         if(Attr.description) inputHtml += `<p class = "descr">${Attr.description}</p>`;
         inputHtml = `<label for="${nameID}" ${Attr.label}>
