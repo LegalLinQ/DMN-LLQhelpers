@@ -1,0 +1,3 @@
+DMN Moddle for LLQ offers the following helper functions ...
+No independent function, is a dependency of DMNApp
+
